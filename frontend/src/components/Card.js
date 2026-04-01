@@ -1,2 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-export const Card = ({ title, children, accent }) => (_jsxs("section", { className: "bg-slate-900/70 border border-slate-800 rounded-2xl p-5 backdrop-blur-sm", children: [_jsxs("div", { className: "flex items-center justify-between mb-4", children: [_jsx("p", { className: "text-xs uppercase tracking-[0.3em] text-slate-500", children: title }), accent && _jsx("span", { className: "text-sm text-slate-400", children: accent })] }), children] }));
