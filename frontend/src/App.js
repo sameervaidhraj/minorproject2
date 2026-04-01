@@ -1,0 +1,11 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Routes, Route } from "react-router-dom";
+import { Layout } from "./components/Layout";
+import { Dashboard } from "./pages/Dashboard";
+import { SecretsManager } from "./pages/SecretsManager";
+import { AuditTrail } from "./pages/AuditTrail";
+import { AccessControl } from "./pages/AccessControl";
+import { VaultControl } from "./pages/VaultControl";
+import { Login } from "./pages/Login";
+const App = () => (_jsxs(Routes, { children: [_jsx(Route, { path: "/login", element: _jsx(Login, {}) }), _jsxs(Route, { element: _jsx(Layout, {}), children: [_jsx(Route, { path: "/", element: _jsx(Dashboard, {}) }), _jsx(Route, { path: "/secrets", element: _jsx(SecretsManager, {}) }), _jsx(Route, { path: "/audit", element: _jsx(AuditTrail, {}) }), _jsx(Route, { path: "/access", element: _jsx(AccessControl, {}) }), _jsx(Route, { path: "/vault", element: _jsx(VaultControl, {}) })] })] }));
+export default App;

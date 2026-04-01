@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
